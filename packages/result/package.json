@@ -1,13 +1,13 @@
 {
-  "name": "@ivtools/pack1",
-  "version": "1.0.1",
+  "name": "@ivtools/result",
+  "version": "1.0.0",
   "description": "",
   "author": "Ihor Vodianyi",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ihorvodianyi/ivtools.git",
-    "directory": "packages/pack1"
+    "directory": "packages/result"
   },
   "publishConfig": {
     "access": "public"

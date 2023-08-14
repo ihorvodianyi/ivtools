@@ -36,12 +36,12 @@ export class Result extends ResultBase {
 
 export class ResultValue<T> extends ResultBase {
 
-    private _value: T | undefined;
-    public get value(): T | undefined {
+    private _value: T | null;
+    public get value(): T | null {
         return this._value;
     }
 
-    private constructor(state: ResultState, value: T | undefined) {
+    private constructor(state: ResultState, value: T | null = null) {
         super(state);
         this._value = value;
     }
@@ -51,6 +51,6 @@ export class ResultValue<T> extends ResultBase {
     }
 
     public static fail<T>(): ResultValue<T> {
-        return new ResultValue<T>(ResultState.FAIL, undefined);
+        return new ResultValue<T>(ResultState.FAIL);
     }
 }

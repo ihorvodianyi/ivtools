@@ -1,5 +1,5 @@
 {
-  "name": "@ivtools/pack2",
+  "name": "@ivtools/validation",
   "version": "1.0.0",
   "description": "",
   "author": "Ihor Vodianyi",
@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ihorvodianyi/ivtools.git",
-    "directory": "packages/pack2"
+    "directory": "packages/validation"
   },
   "publishConfig": {
     "access": "public"
